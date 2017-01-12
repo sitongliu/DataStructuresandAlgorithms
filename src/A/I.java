@@ -25,7 +25,7 @@ public class I {
     public void insertHeader(String data){
         Node newNode = new Node(data,header);
         this.header = newNode;
-        if (tail == null){  //如果在没有节点的情况下;
+        if (header == null){  //如果在没有节点的情况下;
             tail = newNode;
         }
         size++;
